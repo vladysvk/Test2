@@ -1,0 +1,54 @@
+
+.my_header {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+main {
+    padding-top: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+form label,
+form input,
+form select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+}
+
+form button {
+    width: 45%;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+
+form button[type="submit"] {
+    background-color: orange;
+    width: 100%;
+    margin-bottom: 1cm;
+}
+
+form button[type="reset"] {
+    background-color: orange;
+    width: 100%;
+}
+
