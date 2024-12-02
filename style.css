@@ -9,7 +9,6 @@
 
 
 main {
-    padding-top: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -17,7 +16,7 @@ form {
     width: 50%;
     margin: 0 auto;
     padding: 20px;
-    background-color: whitesmoke;
+    background-color: antiquewhite;
 }
 
 form label,
