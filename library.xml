@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <book id="1">
+        <title>Introduction to Programming</title>
+        <author>John Doe</author>
+        <year>2021</year>
+        <available>true</available>
+    </book>
+    <book id="2">
+        <title>Advanced Algorithms</title>
+        <author>Jane Smith</author>
+        <year>2020</year>
+        <available>false</available>
+    </book>
+    <book id="3">
+        <title>Data Structures Simplified</title>
+        <author>Alan Turing</author>
+        <year>2019</year>
+        <available>true</available>
+    </book>
+    <book id="4">
+        <title>Artificial Intelligence</title>
+        <author>Ada Lovelace</author>
+        <year>2022</year>
+        <available>false</available>
+    </book>
+</library>

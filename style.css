@@ -25,6 +25,9 @@ body {
 
 .header1{
     color: green;
+  }
+  
+.data-header {
     text-align: center;  
     padding: 20px;
     margin-top: 60px;  
@@ -87,11 +90,184 @@ main {
 
 .links a:hover {
     color: blue;
-  }
+    margin-bottom: 1cm;
+}
+
+.image-header {
+    text-align: center;  
+    padding: 20px;
+    margin-top: 60px;  
+    font-size: 2em;
+    margin-bottom: 1cm;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+    padding: 10px;
+}
+
+.my_header {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1cm;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+form label,
+form input,
+form select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+}
+
+form button {
+    width: 45%;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+
+form button[type="submit"] {
+    background-color: orange;
+    width: 100%;
+    margin-bottom: 1cm;
+}
+
+form button[type="reset"] {
+    background-color: orange;
+    width: 100%;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+}
+
+.header_one {
+    margin-bottom: 1cm;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+main {
+    padding-top: 100px;
+}
+
+.team-members {
+    margin: 0px auto;
+    width: 70%;
+}
+
+.team-members ol {
+    padding: 20px;
+    border: 2px solid black;
+    list-style-type: upper-alpha;
+}
+
+.links {
+    text-align: center;
+    margin: 20px auto; 
+}
+
+.links a {
+    display: inline-block; 
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+    max-width: 200px; 
+    padding: 10px 15px; 
+    transition: all 0.3s ease; 
+}
+
+.links a:hover {
+    color:aqua;
+    font-family:Verdana, sans-serif;
+}
+
+.image-gallery {
+    text-align: center;
+}
+
+.image-gallery a {
+    margin: 10px;
+}
+
+.image-gallery img {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #333;
+}
 
 @media (max-width: 768px) {
     .columns {
         flex-direction: column; 
         align-items: center; 
     }
+}
+
+.column {
+    width: 100%;  
+    max-width: 100%; 
+    margin-bottom: 20px; 
+}
+
+
+.links {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.links a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    max-width: 200px;
+    padding: 10px 15px;
+
+}
+
+.links a:hover {
+    color: aqua;
+}
+li {
+    font-weight: bold;
 }
