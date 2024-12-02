@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .image-header {
+    text-align: center;  
+    padding: 20px;
+    margin-top: 60px;  
+    font-size: 2em;
+    margin-bottom: 1cm;
+  }
+  
+  .image-gallery {
+    text-align: center;
+  }
+  
+  .image-gallery a {
+    margin: 10px;
+  }
+  
+  .image-gallery img {
+    width: 300px;
+    height: 300px;
+    border: 3px solid #333;
+  }
+  
+  @media (max-width: 768px) {
+    .columns {
+        flex-direction: column; 
+        align-items: center;    
+    }
+  
+    .column {
+        width: 100%;  
+        max-width: 100%; 
+        margin-bottom: 20px; 
+    }
+  }
