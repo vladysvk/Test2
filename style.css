@@ -1,0 +1,49 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+}
+
+.header_one {
+    margin-bottom: 1cm;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+main {
+    padding-top: 100px;
+}
+
+.team-members {
+    margin: 0px auto;
+    width: 70%;
+}
+
+.team-members ol {
+    padding: 20px;
+    border: 2px solid black;
+    list-style-type: upper-alpha;
+}
+
+.links {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.links a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    max-width: 200px;
+    padding: 10px 15px;
+
+}
+
+.links a:hover {
+    color: aqua;
+}
+li {
+    font-weight: bold;
+}
