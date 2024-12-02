@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .data-header {
+    text-align: center;  
+    padding: 20px;
+    margin-top: 60px;  
+    font-size: 2em;
+    margin-bottom: 1cm;
+  }
+  
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  td {
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .links {
+    text-align: center;
+    margin: 20px auto; 
+  }
+  
+  .links a {
+    display: inline-block; 
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+    max-width: 200px; 
+    padding: 10px 15px; 
+    transition: all 0.3s ease; 
+  }
+  
+  .links a:hover {
+    color:aqua;
+  }
