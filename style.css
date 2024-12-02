@@ -25,7 +25,9 @@ body {
 
 .header1{
     color: green;
-  }
+    margin-top: 50px;
+    text-align: center;
+}
   
 .data-header {
     text-align: center;  
